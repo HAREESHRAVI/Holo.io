@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.box {
+  width: 1000px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  /* border: 5px solid white; Colorful border */
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    45deg,
+    white,
+    #00ffff,
+    white,
+    #00ffff,
+    #00ffff
+  );
+  -webkit-background-clip: text;
+  color: transparent; /* Transparent background (adjust the alpha value for transparency) */
+  padding: 20px; /* Adjust the padding as needed */
+  text-align: center;
+  /* color: white; Text color inside the box */
+  position: absolute;
+  top: 250px;
+  left: 16px;
+  font-size: 30px;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent black background */
+  padding: 15px;
+  float: right;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-left: 20px;
+  float: right;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #00ffff; /* Change color on hover */
+  box-shadow: 0 0 10px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255);
+  background-color: rgb(0, 255, 255); /* Change the background color on hover */
+  color: black;
+}
+.styled-button-flora {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.styled-button-fauna {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.styled-button-fauna,
+.styled-button-flora:focus {
+  outline: none;
+}
+
+.styled-button-flora:hover,
+.styled-button-fauna:hover {
+  box-shadow: 0 0 10px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255);
+  background-color: rgb(0, 255, 255); /* Change the background color on hover */
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+/* ========================About and contact page styles=======================  */
+
+.about-h1,
+.contact-h1,
+.flora-h1,
+.fauna-h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.about-text,
+.contact-text {
+  width: 1000px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  border: 3px solid white;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    45deg,
+    white,
+    #00ffff,
+    white,
+    #00ffff,
+    #00ffff
+  );
+  -webkit-background-clip: text;
+  color: transparent; /* Transparent background (adjust the alpha value for transparency) */
+  padding: 20px; /* Adjust the padding as needed */
+  text-align: center;
+  /* color: white; Text color inside the box */
+  position: absolute;
+  top: 250px;
+  left: 16px;
+  font-size: 30px;
+}
